@@ -1,0 +1,83 @@
+
+
+html,
+body,
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.principal {
+  position: relative;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 3px solid rgb(112, 185, 2);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 150px;
+  margin: auto;
+}
+
+.nav_esquerda {
+  width: 300px;
+  height: 700px;
+  background-color: darkolivegreen;
+  position: absolute;
+}
+
+.links {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 350px;
+  margin: 40px;
+  text-align: center;
+  line-height: 2;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+a:link {
+  color: rgb(112, 185, 2);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(153, 153, 153);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(112,185,2);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(13, 255, 0);
+  text-decoration: none;
+}
+
+.conteudo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 200px;
+    left: 400px;
+    position: absolute;
+    color: darkolivegreen;
+    line-height: 1.4;
+}
+
+.conteudo1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 300px;
+    left: 400px;
+    position: absolute;
+    color: darkolivegreen;
+    line-height: 1.4;
+}
+
